@@ -1,7 +1,10 @@
 # my .perltidyrc config file
 #   http://perldoc.perl.org/perlstyle.html
 
-# I'm using long-names for this beq
+# I'm using long-names for this because dotfiles are a place where
+# you go back and edit on occasion, so things like -nsbl are not 
+# things you will understand, but --noopening-sub-brace-on-new-line  
+# will be much clearer
 
   --backup-and-modify-in-place
   #--cuddled-else
